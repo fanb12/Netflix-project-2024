@@ -24,6 +24,14 @@
   align-items: center;
   /* background-color: yellow; */
 }
+ul li a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+}
+ul li a:hover {
+  opacity: 1;
+}
 .header_left ul {
   width: 140%;
   display: flex;
@@ -31,6 +39,7 @@
   align-items: center;
   list-style: none;
   cursor: pointer;
+  text-decoration: none;
   /* background-color: lightblue; */
 }
 .header_right ul {
@@ -40,4 +49,11 @@
   list-style: none;
   cursor: pointer;
   /* background-color: lightgreen; */
+}
+ul li {
+  opacity: 0.8;
+}
+ul li:hover {
+  opacity: 1;
+  transform: scale(1.09);
 }

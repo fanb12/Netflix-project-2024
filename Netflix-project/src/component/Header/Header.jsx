@@ -5,6 +5,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -15,12 +16,24 @@ function Header() {
             <li>
               <img src={logo} alt="Netflix" width="100" />
             </li>
-            <li>Home</li>
-            <li>TvShows</li>
-            <li>Movie</li>
-            <li>Latest</li>
-            <li>My List</li>
-            <li>Browse By Languages</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/TvShows">TvShows</Link>
+            </li>
+            <li>
+              <Link to="/Movie">Movie</Link>
+            </li>
+            <li>
+              <Link to="/Latest">Latest</Link>
+            </li>
+            <li>
+              <Link to="/My List">My List</Link>
+            </li>
+            <li>
+              <Link to="/Browse By Languages">Browse By Languages</Link>
+            </li>
           </ul>
         </div>
         <div className="header_right">

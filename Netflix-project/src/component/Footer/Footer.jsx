@@ -8,9 +8,17 @@ function Footer() {
     <div className="footer_outer_container">
       <div className="footer_inner_container">
         <div className="footer_icons">
-          <FacebookOutlinedIcon />
-          <InstagramIcon />
-          <YouTubeIcon />
+          <ul>
+            <li>
+              <FacebookOutlinedIcon />
+            </li>
+            <li>
+              <InstagramIcon />
+            </li>
+            <li>
+              <YouTubeIcon />
+            </li>
+          </ul>
         </div>
         <div className="footer_data">
           <div>

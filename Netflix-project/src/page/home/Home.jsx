@@ -1,15 +1,16 @@
 import React from "react";
 import Header from "../../component/Header/Header";
-import Rowlist from "../../component/Rows/rowlist/Rowlist";
 import Banner from "../../component/Banner/Banner";
 import Footer from "../../component/Footer/Footer";
+import { Outlet } from "react-router-dom";
 
 function Home() {
   return (
     <div>
       <Header />
       <Banner />
-      <Rowlist />
+      <Outlet />
+
       <Footer />
     </div>
   );

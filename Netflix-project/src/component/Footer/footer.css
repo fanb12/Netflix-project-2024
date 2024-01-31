@@ -8,13 +8,19 @@
   width: 60%;
   /* background-color: red; */
 }
-.footer_icons {
+.footer_icons ul {
   /* background-color: blue; */
   width: 12%;
   display: flex;
   justify-content: space-between;
   margin-left: 10px;
   color: #fff;
+  opacity: 0.8;
+  list-style: none;
+}
+.footer_icons ul li:hover {
+  opacity: 1;
+  transform: scale(1.09);
 }
 .footer_data {
   display: flex;
