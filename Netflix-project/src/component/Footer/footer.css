@@ -50,3 +50,20 @@
   font-size: 12px;
   margin-bottom: 10px;
 }
+@media (max-width: 720px) {
+  .footer_data {
+    display: none;
+  }
+  .service_code {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border: #fff 1px solid;
+    width: 30%;
+  }
+  .copy-write {
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-left: 180px;
+  }
+}

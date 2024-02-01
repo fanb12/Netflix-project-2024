@@ -57,3 +57,28 @@ ul li:hover {
   opacity: 1;
   transform: scale(1.09);
 }
+#toggle-button {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  #toggle-list {
+    display: none; /* Initially hidden */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #toggle-list.show {
+    display: block; /* Show when toggle button is clicked */
+    margin-left: 300px;
+    background-color: black;
+    margin-top: 150px;
+    padding: 20px;
+  }
+  #toggle-button {
+    display: block;
+    margin-left: 400px;
+    margin-top: 10px;
+  }
+}

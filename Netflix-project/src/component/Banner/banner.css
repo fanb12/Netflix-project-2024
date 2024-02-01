@@ -53,3 +53,12 @@
     #111
   );
 }
+@media (max-width: 720px) {
+  .banner__description {
+    display: none;
+  }
+  .banner {
+    margin-top: -10vw;
+    height: 80vw;
+  }
+}
