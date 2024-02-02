@@ -71,14 +71,14 @@ ul li:hover {
 
   #toggle-list.show {
     display: block; /* Show when toggle button is clicked */
-    margin-left: 300px;
+    margin-left: 400px;
     background-color: black;
     margin-top: 150px;
     padding: 20px;
   }
   #toggle-button {
     display: block;
-    margin-left: 400px;
+    margin-left: 300px;
     margin-top: 10px;
   }
 }
